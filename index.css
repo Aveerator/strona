@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.main {
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #213769;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  color: pink;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  word-spacing: 1rem;
+  letter-spacing: 2rem;
+  -webkit-animation: spin 5s linear infinite;
+          animation: spin 5s linear infinite;
+  overflow: clip;
+  height: 5rem;
+}
+
+.title {
+  font-weight: bold;
+  color: pink;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.overtext {
+  position: absolute;
+  top: 0;
+  bottom: 90%;
+  left: 0;
+  right: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+img {
+  -webkit-animation: spin 5s linear infinite;
+          animation: spin 5s linear infinite;
+}
+
+img:hover {
+  -webkit-animation: spin 0.5s linear infinite;
+          animation: spin 0.5s linear infinite;
+}
+
+table {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+td {
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */
